@@ -88,7 +88,8 @@ public class LoadoutState : AState
         }
 
         runButton.interactable = false;
-        runButton.GetComponentInChildren<Text>().text = "Loading...";
+        runButton.GetComponentInChildren<Text>().text = "Loading..."; 
+		//ini dia sikampret
 
         if(m_PowerupToUse != Consumable.ConsumableType.NONE)
         {
